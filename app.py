@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/', methods = ['GET'])
 def home():
-    return "This is our first web application project"
+    return "Modified Deployment version file"
 
 if __name__ == "__main__":
     app.run(debug = True)
